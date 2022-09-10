@@ -1,0 +1,25 @@
+Code Cache-->Special area of memory where the JVM stores the mostly used code to make the exeuction faster.
+
+If the code cache size is not large enough then the java vm wil throw an warning saying the code cache is full and the compilation is stopped.
+
+We can print the code cache size by turning on the flag "PrintCodeCache" which will print the code cache details on console.
+-XX:+PrintCodeCache
+
+We can tune and control the size of the code cache by setting the flags 
+InitialCodeCacheSize-->The starting size of code cache
+ReservedCodeCacheSize-->The maximum size to which the code cache can be expanded
+CodeCacheExpansionSize-->the factor by which the code cache can be expanded from Initial to Reserved
+
+
+
+Code cache size in JVM 7 and earlier versions.
+In 64bit VMs its 48MB
+In 32bit VMs its 32MB
+
+Code cache size in later JVM versions.
+In 64bit VMs its 240MB
+In 32bit VMs its MB
+
+
+
+

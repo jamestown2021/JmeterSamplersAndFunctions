@@ -1,0 +1,4 @@
+UseAdapativeSizePolicy -->Flag used to make changes to the size of the heap automatically
+NewRatio-->Flag used to specify what should be the size of the older generation compared to the younger generation, The number specified shoould be a whole number and it should be greater than zero
+SurvivorRatio-->Flag used to specify the size of the survivor spaces comapred to the eden space, The younger generation will be divided into the mentioned number of equal parts and one of the parts each will be allocated to the survivor spaces each, and rest of the parts will be allocated to the eden s[ace.
+MaxTenuringThreshold-->The value which specifies the number of grabage collection cycles the object has to survive in order to be promoted to the next generation. By default its value will be 15 and the maximum value which can be set is also 16, beyond that value the JVM will throw the error.

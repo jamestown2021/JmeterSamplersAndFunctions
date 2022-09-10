@@ -1,0 +1,30 @@
+Register the driver
+
+Class.forName("DriverName") is used to register the driver name
+
+We will be using the think driver for the connection to the Database and the thin driver name is different for different database vendors.
+
+--------------------
+
+Using the DriverManager.getConnection("ConnectionString") factory method we can get the establish the connection to the database.  On a successful connection an object to the database connection is returned, if not then null pointer is returned.
+
+--------------------
+
+Execute the queries
+
+
+PreparedStatement
+CallableStatement
+Statement
+
+--------------------
+
+View the results
+
+ResultSet
+Set
+ResultSetMetadata
+DatabaseMetaData.
+
+
+----------

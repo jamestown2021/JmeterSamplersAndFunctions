@@ -1,0 +1,76 @@
+<DOCTYPE html>
+<head>
+<title>Simple Calculator</title>
+<script>
+function add(){
+var a=document.getElementById('a').value;
+var b=document.getElementById('b').value;
+var c=parseInt(a)+parseInt(b);
+document.getElementById('result').innerHTML=c;
+
+}
+function sub(){
+var a=document.getElementById('a').value;
+var b=document.getElementById('b').value;
+var c=parseInt(a)-parseInt(b);
+document.getElementById('result').innerHTML=c;
+
+}
+function mul(){
+var a=document.getElementById('a').value;
+var b=document.getElementById('b').value;
+var c=parseInt(a)*parseInt(b);
+document.getElementById('result').innerHTML=c;
+
+}
+function div(){
+var a=document.getElementById('a').value;
+var b=document.getElementById('b').value;
+
+if(b==0){
+
+alert("Cannot divide by zero");
+}
+else{
+
+var c=parseInt(a)/parseInt(b);
+document.getElementById('result').innerHTML=c;
+ 
+}}
+</script>
+<style>
+div#operations{
+
+}
+div#inputs{
+width:100px;
+height:100px;
+float:left;
+}
+
+input#a,#b,label{
+width:120px;
+}
+div#overall{
+
+width:300px;
+height:200px;
+}
+</style>
+</head>
+<body>
+<div id='overall'>
+<div id="inputs">
+<input type=number id='a' class="numbers"></input><br>
+<input type=number id='b' class="numbers"></input><br>
+<label id='result' value="Result">Result</label>
+</div>
+<div id="operations">
+<input type=button onclick=add() value="+" style="width:40px"></input><br>
+<input type=button onclick=sub() value="-" style="width:40px"></input><br>
+<input type=button onclick=mul() value="*" style="width:40px"></input><br>
+<input type=button onclick=div() value="/" style="width:40px"></input><br>
+</div>
+</div>
+</body>
+</html>

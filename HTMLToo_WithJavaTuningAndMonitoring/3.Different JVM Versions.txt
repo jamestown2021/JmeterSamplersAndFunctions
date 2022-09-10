@@ -1,0 +1,40 @@
+32 and 64 bit JVM
+
+32 bit client JVM is useful for the applications where the datatype used are of smaller size such as int and float because the size of the variable addressses are of 32 bit, hence they can be managed easily.
+
+The maximum size of the heap is 3GB and t only contais C1 level compiler.
+
+The C1 level compiler is called as client level compiler and C2level compiler is called as server level compiler.
+
+The machines which are running 32bit operating system must use a 32 bit compiler,  however the machines which are using 64 bit operating systems can use either of the 2 based on the requirements.
+
+The 64 server bit JVM is useful when the datatypes which are used are huge such as long and double.
+64 bit JVM contains both C1 and C2 level compilers.
+It  is better to use the 64 bit JVM when the heap size expectaion is more that 4GB
+32 bit version is better performed when the applications are short lived and the performance is mattered rather than the application uptime.
+64 bit is useful in handling the large sized applications such as servers where the performance needs to be improved over time and startup is not a matter of concern.
+
+32  bit JVM is called client JVM and 64 bit is called as server JVM
+
+----------------------------------
+
+
+Some of the operating systems such as the Mac and Spark doesnot have 32 bit versions so the default and the only option is to use the 64 bit version of the compiler.
+
+-client -->Is the flag which can be used to in these situations to instruct the JVM to specifically use client complier orthe C1 complier.
+-server-->Flag to instruct the JVM to use 64 bit version of compiler
+-d64-->flag to instruct the JVM to use 64 bit JVM only.
+
+But the -client flag is not so effective as the JVM might convert the Java method to native code conversion sometimes that is using C2 compiler, however the execution time of the program is slightly faster compared to the 64 bit version of the compiler.
+
+------------------------------------
+
+TieredCompilation
+
+By default the JVM is configured to perform Just in time compiation that is compiling the code at the runtime for better optimization.
+This compilation at runtime can be turned off by turning off the flag TieredCompilation.
+-XX:-TieredCompilation will instruct the JVM to run only in interpreted mode.
+
+
+
+ 

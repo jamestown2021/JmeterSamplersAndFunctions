@@ -1,0 +1,52 @@
+<!--doctype html-->
+<html>
+<head>
+<title>Sample Colour Changing Page</title>
+<script>
+function change(){
+var r=parseInt(document.getElementById("R").value);
+var g=parseInt(document.getElementById("G").value);
+var b=parseInt(document.getElementById("B").value);
+document.body.style.backgroundColor="rgb(" + r + "," + g + "," + b + ")";
+}
+
+
+</script>
+<style>
+input#R,input#G,input#B{
+height:20px;
+width:100px
+}
+div#division1{
+
+float:left;
+width:150px;
+}
+
+div#division2{
+float:left;
+width:50px;
+}
+#ColorChanger{
+width:100px;
+}
+</style>
+</head>
+<body>
+
+<div id="division2" class="left">
+<b>
+<label>Red</label><br>
+<label>Green</label><br>
+<label>Blue</label><br>
+</b>
+</div>
+<div id="division1" class="right">
+<input type=number id="R" min="0" max="255"></input><br>
+<input type=number id="G" min="0" max="255"></input><br>
+<input type=number id="B" min="0" max="255"></input><br><br>
+<button id="ColorChanger" onclick="change()">Change</button>
+
+</div>
+<body>
+</html>

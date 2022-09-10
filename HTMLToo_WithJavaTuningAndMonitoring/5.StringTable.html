@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>String Table</title>
+</head>
+<body>
+<br>
+<h4>Java String Table</h4>
+Java strings are immmutable, meaning the string cannot be modified in Java.<br>
+Every time a modification is done to a string, a new string is created in java rather than altering the old one.
+<br>
+<h4>Java string storage proccedure</h4>
+Java strings are stored in a special area in heap called as String table which is in turn a hashtable. Everytime a string is created it is converted to its hash form. After the hashing is done,that generated hashcode is used to point to a particular row in the string table. If the string is already present in that row then the instance of the string is pointed to the already existing hashtable element. If the string is not present then a new string is created in the string table and its reference is returned.
+<br>
+We can print the statistics of the string table using the advanced option "PrintStringTableStatistics", which will print the size and number of buckets present in the string table.
+We can increase the size of the string table using the advanced option "StringTableSize", which will set the number of buckets in the string table. More the number of buckets, more strings can be stored. By default the size of the string table is approximately 1009.
+<br>
+
+<h4>Important Note</h4>
+The java string storage mechanism explained above are only for string literals, If a string is a result of a calculation then these results won't apply, that is a new string instance is created even if there is a string with the similar value present in the string table. 
+We can make sure of the deduplication of the string table by calling the intern() method of the string, which will deduplicate the string if an entry is already present in the string table.
+</body>
+<html>

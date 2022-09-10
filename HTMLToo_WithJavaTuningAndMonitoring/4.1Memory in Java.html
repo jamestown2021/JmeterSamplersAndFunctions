@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<title>Java Memory Basics</title>
+</head>
+<body>
+<h5>Java has 3 different types of memory sections</h5>
+<ul type=dot>
+
+<li>Stack</li>
+<li>Heap</li>
+<li>Metaspace</li>
+</ul>
+
+<br>
+<b>Stack</b>
+<p>
+It is not a single block of memory but every thread has its own stack.
+
+Stack works on the concept of last in first out which means everytime a new data member is entered into the datastructure  the previous ones are pushed down, and the element which is inserted recently will be the first one to be removed.
+
+Stack is used to store the local variables, the local variables are destroyed automatically when the local method/code block is ended.
+Due to this usage of storing the local variables and each thread having its own stack, the individual threads can only have the visibility over the elements stored in it(that is the varialbes stored in the stack can only be acccessed by respective threads.
+</p>
+<br>
+<br>
+<br>
+<b>Heap</b>
+
+<p>It is a common shared memory area between all the threads in program/application.
+Complex variables, objects are created(that is allocation of memory for these) on the heap whereas stack is used only for the storage of local primitive variables.
+When an object is created/instantiated the memory is allocated in the heap space, a reference for the object (a pointer to the memory area of the object) is created on the stack and  used to access the object.
+Compared to the stack the size of the heap is huge.</p>
+<br>
+<br>
+<br>
+<b>Rules of Java Memory Allocation</b>
+<ul type=dot>
+<li>Local variables and primitive variables are created on the stack</li>
+<li>Objects are created on the heap</li>
+<li>Reference to an object in the stack is used to manage the memory for the objects</li>
+</ul>
+</body>
+
+</html>
+  
+

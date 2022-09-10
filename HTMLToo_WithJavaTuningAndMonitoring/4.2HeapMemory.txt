@@ -1,0 +1,7 @@
+HeapSize
+
+
+-->InitialHeapSize-->Flag used to set initial heap size
+-->MaxHeapSize-->Flag used to set max heap size
+
+the default size depends on the hardware.

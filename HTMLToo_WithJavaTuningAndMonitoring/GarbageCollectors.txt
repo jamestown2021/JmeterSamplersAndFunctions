@@ -1,0 +1,14 @@
+Parallel -->Defaul garbage collector for Java8
+ConcMarksweep-->Defauly for Java 9
+G1-->Default from Java 10
+
+------------------------------------
+
+G1GC
+
+ConcGCThreads-->Maximum number of threads which can be used for the garbage collection process
+InitiatingHeapOccupancyPercent-->The percentage of heap which needs to be occupied to trigger the garbage collection process(By default the value is 45%)
+UseStringDeDuplication-->Duplicated strings are removed and all of them are made into a single object in heap memory
+---------------------
+
+

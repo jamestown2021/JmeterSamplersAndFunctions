@@ -1,0 +1,18 @@
+PrintCompilation switch
+
+-XX:+PrintCompilation
+
+Fields
+
+1-->Number indicating the time elapsed in milliseconds since the JVM has started.
+2-->number indicating the order in which the method is compiled(it will not be in an orderly manner as multiple threads are used for the compilation)
+3.-->A symbol indicating the status of the method
+s-->Its a synchronized  method
+%-->OSD(On Stack)Method, meaning it has many versions of the same method and the appropriate version is chosen based on the curcumstances
+!-->Some exception handling is going on
+n-->Native method
+*-->Compiled to code cache and its running at the optimal performance
+b-->Blocking the compilation
+4-->A number ranging from 0-4 zero indicating the method is still being interpreted
+0-3 is compilation done at C1 compiler
+4 is compilation done at c2 compiler

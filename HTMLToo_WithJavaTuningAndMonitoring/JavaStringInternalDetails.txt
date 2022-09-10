@@ -1,0 +1,11 @@
+-XX:+PrintStringTableStatistics
+
+Flag used to print the string pool details 
+
+Total Number of String buckets -->60k+13 by default
+
+
+-XX:StringTableSize
+-->A number which is used to create the number of string buckets in the string table(better to use a prime number to have a better optimization).
+
+Bigger the size of the string pool, better the size of the execution time.

@@ -1,0 +1,25 @@
+How to increase the number of threads allocated to perform the compilation at runtime.
+
+we can use printFlagsFinal advanced option to print all the flags which are set for the java virtual machine.
+
+There is no need to provide any class name in order to perform this operation
+
+java -XX:PrintFlagsFinal
+
+Here the problem is it will print every info hence it will be difficult to search the information we are looking for,
+
+
+We can use jps command to print the process ids of all the running java applications.
+
+jinfo command is useful where we can mention only the intended flag and it returns the flag value for the particular process(application)
+
+jinfo -flag <FlagName> processID 
+
+-------------------------
+
+CICompilerCount : It is the flag which decideds how many theads are to be used for JIT compilation, the minimum value for this flag is 1 for 32 bit compilers and 2 for y64 bit compilers
+
+
+We can set the CIComplierCount Flag while running the application by using -XX:CICompilerCount=<Number of threads to be used>
+--------------------------
+

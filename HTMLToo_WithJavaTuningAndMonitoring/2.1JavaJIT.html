@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Java JIT Compilers</title>
+</head>
+<body>
+<h4>Java JustInTime(JIT)Compilers</h4>
+
+<b>What is Just In Time Compilation?</b>
+<p>
+Whenever Java Virtual Machine(JVM) is executing the code itis generally said that the JVM will interpret the byte code and execute in the Runtime. But it is not entirely true. Java has a complier built inside the JVM, whose job is to optimize the performance of the code/program, by converting the appropriate parts of the code into native machine code or near to the machine code. This process is called as Just In Time Compilation
+</p>
+
+<b>How to know about the JIT compilation?</b>
+<p>We can come to know about the compilation by turning an advanced JVM option known as the "PrintCompilation" flag.<br>
+While running the program use <b>-XX:+PrintCompilation</b> flag to print the details about the compilation.
+Even we can log the compilation of a program by turning on the <b>"LogCompilation"</b> flag, but inorder to use this flag we need to have access to the advanced debug options. We can have the access to the advanced debug optins by turning on the <b>"UnlockDiagnosticsVMOptions"</b> flag.
+</p>
+
+<br>
+<br>
+<b>Fileds printed in the PrintCompilation</b>
+<p>
+The output of the PrintCompilation is a table which contains the below fields/details.
+<ul type=dot>
+<li>Elpased Time-The first field which specifies the time since the JVM has started in milliseconds.</li>
+<li>Compilation Order-Integer filed which specifies the order in which the methods are compiled, these numbers are not in any order as multiple threads are used for compilation.</li>
+<li>Method details-The next 3 fields detail the various states of methods which are specifed in symbols, For example</li>
+<ul type=dot>
+<li>s-a method is a OSR(on stack replacement)method.</li>
+<li>!-an exception has occured.</li>
+<li>*-The method is stored in code cache and is running with optimal way possible.</li>
+<li>n-The method is compiled into native method and will no longer be interpreted.</li>
+</ul>
+<li>Compilation Level-The level of compilation of each method</li>
+<li>Method Details-Detail of each method including the the package detail</li>
+</ul>
+</p>
+<br>
+<br>
+<div>
+<h5>Which are different compilers?</h5>
+
+<p>
+&nbsp If we see the compilation logs we see the Compilation level which is a number between 0-4. Here 0  means there is no compilation taking place and 4 being the highest level of optimization possible.There are 2 levels of compilers, named C1 and C2. C1 is responsible for 1-3 level of compilation and C2 is responsible for level 4 compilation, each level being more complicated and optimized than the previous.
+</p>
+</div>
+</body>
+</html>

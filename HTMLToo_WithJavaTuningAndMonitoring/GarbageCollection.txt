@@ -1,0 +1,59 @@
+What is garbage Collection?
+
+It is the process of freeing up the unused memory.
+
+What is heap?
+It is the portion of common memory in an application
+
+What is stack?
+It is the portion of private memory in an application.
+
+---------------------------------------------
+
+Heap is divided into manily 3 parts
+--Young generation-->Where the memory is allocated initially, it is divided into 3 parts further
+	-Eden Space-->Where the memory is created very firstly
+	-Survivor Space1-->the memory objects which are still alive after the first garbage colection are moved from Eden Space to  Survivor Space1
+	-Survivor Space2-->It is also similar to SurvivorSpace1
+
+--Older Generation-->This part contains the memory objects which are survived for long term and survived minor garbage collection events.
+
+--Permanent Generation-->This part contains the metadata which includes environment information, configuration information, class definition etc.
+---------------------------------------------
+Garbage Collection Process
+
+--Initially the JVM stars allocating memory in heap in a partition called as EDEN space.
+--When the EDEN space is full a garbage collection event is triggered and unused memory is collected.The memory objects which are still valid(which are further needed for the execution) will be moved to the SURVIVOR SPACE(SPACE1 or SPACE2 depending on their lifetime). This garbage collection is a periodic event which happens everytime the EDEN space is full and it is a minor event.
+--After many garbage collections the objects are moved to Older generation where the validity of the objects are more. The garbage collection in this area of heap is not frequent and not periodic but the impact is huge and the memory collected will be huge as well(on a successful garbage collection).The garbage collection in the Older generation is a major event. It is only triggered when the minor garbage collection event is not able to release the memory.
+
+--Sometimes the memory objects are moved or shifted within the space to make the available memory in a same single length, this process is called as COMPACTION.
+
+
+-----------------------------------------------
+
+
+Why Frequent Garbage Collection is not good.
+--Garbage collection itself is a heavy process which consumes a lot of resources and if the garbage collection event is not able to release the memory it will make the heap memory full which is called as memory leak.
+
+--Memory leak is a situation wherein the virtual machine will try  to free the memory by performing garbage collection but it will not be able to release it, and garbage collections will happen frequently and eventually the heap memory will be full which will lead to the system failure.
+--Some of the causes for the memory  leaks are
+	-improperly used streams/blocks
+	-memory not being released by threads/processess
+	-heap space being not large enough
+
+
+--------------------------------------------
+
+Garbage Collection methods/Algorithms
+
+--Usually Garbage collection is implemented by the JVM vendors/developers, the most common garbage collection method/algorithm is HOTSPOT.
+	-The Garbage collection methods are
+		-Serial GarbageCollection-->In this garbage collection a single thread is used for performing garbagecollection, aftereach garbage collection compaction is performed. 
+		-Parallel GarbageCollection-->In this type multiple threads are used for garbage collection for younger generation and single thread is used for major garbage collection.Compaction is not  performed after the major garbage collection.
+		-ConcurrentMarkSweep GarbageCollection-->It uses the same algorithm as that of the parallel garbage collection andthe difference between the both is that the algorithm is run in parallel with the application processess to reduce the number of stop the world events, compaction is not performed in this case also.
+		-G1 GarbageCollection-->It is a futuristic algorithm which will replace the concurrent marksweep algorithm in the future.
+
+
+PMS Scavenge-->Its the parallel garbage collection algorithm which is used for minorgarbage collection.
+PMS Marksweep-->It is the G1 garbage collection algorithm which is used for major garbage collection.
+--------------------------------------------- 

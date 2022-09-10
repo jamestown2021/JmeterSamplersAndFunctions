@@ -1,0 +1,410 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1661111326677,11,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111326690,5487,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3348326,7485,1,1,null,0,93,684
+1661111326690,5487,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3348326,7485,1,1,null,0,93,684
+1661111332275,703,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1688,1121,1,1,null,0,3,0
+1661111332275,703,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1688,1121,1,1,null,0,3,0
+1661111332982,1777,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323324,5857,1,1,null,0,7,0
+1661111332982,1777,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323324,5857,1,1,null,0,7,0
+1661111334766,663,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111334766,663,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111335431,3563,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323376,6482,1,1,null,0,1576,0
+1661111335431,3563,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323376,6482,1,1,null,0,1576,0
+1661111340571,2864,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322696,5907,1,1,null,0,10,0
+1661111340571,2570,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734285,4201,1,1,null,0,9,0
+1661111343150,294,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588411,1706,1,1,null,0,1,0
+1661111343446,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111343448,1430,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3348176,7485,1,1,null,0,8,0
+1661111343448,1430,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3348176,7485,1,1,null,0,8,0
+1661111344887,646,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1810,1121,1,1,null,0,2,0
+1661111344887,646,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1810,1121,1,1,null,0,2,0
+1661111345536,1935,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323104,5857,1,1,null,0,9,0
+1661111345536,1935,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323104,5857,1,1,null,0,8,0
+1661111347480,640,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111347480,640,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111348123,1997,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323400,6482,1,1,null,0,1098,0
+1661111348123,1997,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323400,6482,1,1,null,0,1098,0
+1661111351219,3262,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322751,5907,1,1,null,0,7,0
+1661111351219,2921,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734340,4201,1,1,null,0,4,0
+1661111354144,341,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588411,1706,1,1,null,0,3,0
+1661111354490,2,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111354493,1703,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3348022,7485,1,1,null,0,9,0
+1661111354493,1703,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3348022,7485,1,1,null,0,9,0
+1661111356206,684,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1788,1121,1,1,null,0,2,0
+1661111356206,684,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1788,1121,1,1,null,0,1,0
+1661111356892,1516,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323445,5857,1,1,null,0,6,0
+1661111356892,1516,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323445,5857,1,1,null,0,6,0
+1661111358414,658,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111358414,658,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111359074,2251,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323320,6482,1,1,null,0,1327,0
+1661111359074,2251,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323320,6482,1,1,null,0,1327,0
+1661111362652,2213,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322544,5907,1,1,null,0,7,0
+1661111362652,1871,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734133,4201,1,1,null,0,6,0
+1661111364529,342,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588411,1706,1,1,null,0,1,0
+1661111364873,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111364874,1409,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347749,7485,1,1,null,0,9,0
+1661111364874,1409,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347749,7485,1,1,null,0,9,0
+1661111366292,636,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1775,1121,1,1,null,0,1,0
+1661111366292,636,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1775,1121,1,1,null,0,1,0
+1661111366929,1670,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323438,5857,1,1,null,0,6,0
+1661111366929,1670,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323438,5857,1,1,null,0,6,0
+1661111368605,658,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,4,0
+1661111368605,658,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,4,0
+1661111369267,3379,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323683,6482,1,1,null,0,1056,0
+1661111369267,3379,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323683,6482,1,1,null,0,1056,0
+1661111373702,2081,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322483,5907,1,1,null,0,7,0
+1661111373702,1810,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734072,4201,1,1,null,0,7,0
+1661111375519,271,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588411,1706,1,1,null,0,0,0
+1661111375791,0,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111375793,2463,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3348287,7485,1,1,null,0,5,0
+1661111375793,2463,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3348287,7485,1,1,null,0,5,0
+1661111378261,656,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1777,1121,1,1,null,0,0,0
+1661111378261,656,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1777,1121,1,1,null,0,0,0
+1661111378918,2034,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323131,5857,1,1,null,0,3,0
+1661111378918,2034,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323131,5857,1,1,null,0,3,0
+1661111380956,647,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111380956,647,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111381605,2216,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323265,6482,1,1,null,0,1116,0
+1661111381605,2216,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323265,6482,1,1,null,0,1116,0
+1661111384937,2088,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322563,5907,1,1,null,0,6,0
+1661111384937,1820,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734152,4201,1,1,null,0,5,0
+1661111386762,268,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588411,1706,1,1,null,0,1,0
+1661111387032,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111387034,1741,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347816,7485,1,1,null,0,6,135
+1661111387034,1741,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347816,7485,1,1,null,0,6,135
+1661111388781,758,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1705,1121,1,1,null,0,2,116
+1661111388781,758,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1705,1121,1,1,null,0,2,116
+1661111389541,4003,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323235,5857,1,1,null,0,9,111
+1661111389541,4003,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323235,5857,1,1,null,0,8,111
+1661111393553,651,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111393553,651,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111394205,2604,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323558,6482,1,1,null,0,1249,0
+1661111394205,2604,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323558,6482,1,1,null,0,1249,0
+1661111398058,2299,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322583,5907,1,1,null,0,4,0
+1661111398058,1997,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734185,4201,1,1,null,0,3,0
+1661111400058,302,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588398,1706,1,1,null,0,1,0
+1661111400362,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111400364,2512,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347607,7485,1,1,null,0,5,0
+1661111400365,2512,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347607,7485,1,1,null,0,4,0
+1661111402881,645,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1740,1121,1,1,null,0,2,0
+1661111402881,645,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1740,1121,1,1,null,0,1,0
+1661111403528,1801,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323158,5857,1,1,null,0,4,0
+1661111403528,1801,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323158,5857,1,1,null,0,4,0
+1661111405333,635,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111405333,635,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111405969,2382,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3322885,6482,1,1,null,0,1423,0
+1661111405969,2382,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3322885,6482,1,1,null,0,1423,0
+1661111409775,2030,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322470,5907,1,1,null,0,7,0
+1661111409775,1745,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734069,4201,1,1,null,0,4,0
+1661111411524,285,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,3,0
+1661111411813,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111411814,1404,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347889,7485,1,1,null,0,7,0
+1661111411814,1404,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347889,7485,1,1,null,0,7,0
+1661111413225,627,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1638,1121,1,1,null,0,2,0
+1661111413225,627,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1638,1121,1,1,null,0,2,0
+1661111413855,1751,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323104,5857,1,1,null,0,5,0
+1661111413855,1751,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323104,5857,1,1,null,0,5,0
+1661111415611,672,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111415611,672,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111416284,2621,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323210,6482,1,1,null,0,1327,0
+1661111416284,2621,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323210,6482,1,1,null,0,1327,0
+1661111420233,2243,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322741,5907,1,1,null,0,6,0
+1661111420233,1953,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734340,4201,1,1,null,0,4,0
+1661111422190,290,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,2,0
+1661111422483,0,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111422484,1161,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347582,7485,1,1,null,0,5,0
+1661111422484,1161,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347582,7485,1,1,null,0,5,0
+1661111423651,639,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1817,1121,1,1,null,0,0,0
+1661111423651,639,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1817,1121,1,1,null,0,0,0
+1661111424290,1904,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323175,5857,1,1,null,0,2,0
+1661111424290,1904,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323175,5857,1,1,null,0,2,0
+1661111426195,632,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111426195,632,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111426828,2452,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323148,6482,1,1,null,0,1356,0
+1661111426828,2452,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323148,6482,1,1,null,0,1356,0
+1661111430636,2041,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322378,5907,1,1,null,0,3,0
+1661111430636,1739,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,733977,4201,1,1,null,0,3,0
+1661111432378,302,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,0,0
+1661111432681,0,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111432683,1410,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3348075,7485,1,1,null,0,3,0
+1661111432683,1410,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3348075,7485,1,1,null,0,3,0
+1661111434097,624,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1865,1121,1,1,null,0,0,0
+1661111434097,624,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1865,1121,1,1,null,0,0,0
+1661111434723,2059,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323182,5857,1,1,null,0,5,0
+1661111434723,2059,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323182,5857,1,1,null,0,4,0
+1661111436787,640,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111436787,640,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111437428,2528,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323151,6482,1,1,null,0,1247,0
+1661111437428,2528,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323151,6482,1,1,null,0,1247,0
+1661111441202,2469,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322193,5907,1,1,null,0,7,0
+1661111441202,2193,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,733792,4201,1,1,null,0,6,0
+1661111443402,276,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,0,0
+1661111443678,2,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111443680,1542,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347801,7485,1,1,null,0,7,0
+1661111443680,1542,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347801,7485,1,1,null,0,6,0
+1661111445229,610,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1615,1121,1,1,null,0,1,0
+1661111445229,610,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1615,1121,1,1,null,0,0,0
+1661111445840,2031,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323316,5857,1,1,null,0,5,0
+1661111445840,2031,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323316,5857,1,1,null,0,5,0
+1661111447876,636,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111447876,636,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111448513,3184,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323274,6482,1,1,null,0,1124,336
+1661111448513,3184,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323274,6482,1,1,null,0,1124,336
+1661111452821,2246,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322656,5907,1,1,null,0,6,0
+1661111452821,1959,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734255,4201,1,1,null,0,3,0
+1661111454783,287,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,3,0
+1661111455074,0,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111455075,1209,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347770,7485,1,1,null,0,2,0
+1661111455075,1209,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347770,7485,1,1,null,0,1,0
+1661111456286,625,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1834,1121,1,1,null,0,1,0
+1661111456286,625,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1834,1121,1,1,null,0,0,0
+1661111456912,2346,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323284,5857,1,1,null,0,4,0
+1661111456912,2346,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323284,5857,1,1,null,0,4,0
+1661111459262,643,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111459262,643,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111459907,2452,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323350,6482,1,1,null,0,1740,0
+1661111459907,2452,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323350,6482,1,1,null,0,1740,0
+1661111464099,1847,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322671,5907,1,1,null,0,5,0
+1661111464099,1531,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734270,4201,1,1,null,0,4,0
+1661111465634,316,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,1,0
+1661111465951,2,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111465955,1784,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347769,7485,1,1,null,0,7,0
+1661111465955,1784,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347769,7485,1,1,null,0,7,0
+1661111467747,598,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1783,1121,1,1,null,0,1,0
+1661111467747,598,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1783,1121,1,1,null,0,1,0
+1661111468346,1853,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323319,5857,1,1,null,0,5,0
+1661111468346,1853,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323319,5857,1,1,null,0,5,0
+1661111470205,637,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111470205,637,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111470843,3515,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323231,6482,1,1,null,0,1632,0
+1661111470843,3515,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323231,6482,1,1,null,0,1632,0
+1661111475990,2388,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322711,5907,1,1,null,0,7,0
+1661111475990,2083,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734310,4201,1,1,null,0,4,0
+1661111478077,305,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,3,0
+1661111478386,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111478387,1677,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347694,7485,1,1,null,0,4,0
+1661111478387,1677,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347694,7485,1,1,null,0,4,0
+1661111480068,635,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1832,1121,1,1,null,0,0,0
+1661111480068,635,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1832,1121,1,1,null,0,0,0
+1661111480703,1919,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323245,5857,1,1,null,0,7,0
+1661111480703,1919,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323245,5857,1,1,null,0,7,0
+1661111482629,784,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111482629,784,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111483413,2291,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323358,6482,1,1,null,0,1373,0
+1661111483413,2291,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323358,6482,1,1,null,0,1373,0
+1661111487078,2280,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322501,5907,1,1,null,0,6,0
+1661111487078,1946,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734100,4201,1,1,null,0,4,0
+1661111489028,334,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,2,0
+1661111489364,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111489365,1643,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347805,7485,1,1,null,0,8,0
+1661111489365,1643,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347805,7485,1,1,null,0,8,0
+1661111491015,631,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1859,1121,1,1,null,0,0,0
+1661111491015,631,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1859,1121,1,1,null,0,0,0
+1661111491646,1682,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323120,5857,1,1,null,0,2,0
+1661111491646,1682,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323120,5857,1,1,null,0,2,0
+1661111493330,647,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111493330,647,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111493979,2508,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323206,6482,1,1,null,0,1444,0
+1661111493979,2508,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323206,6482,1,1,null,0,1444,0
+1661111497931,2086,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322740,5907,1,1,null,0,3,0
+1661111497931,1761,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734336,4201,1,1,null,0,3,0
+1661111499695,325,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588404,1706,1,1,null,0,0,0
+1661111500020,2,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111500022,1654,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347578,7485,1,1,null,0,3,0
+1661111500022,1654,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347578,7485,1,1,null,0,3,0
+1661111501679,711,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1844,1121,1,1,null,0,0,0
+1661111501679,711,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1844,1121,1,1,null,0,0,0
+1661111502391,1653,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323096,5857,1,1,null,0,6,0
+1661111502391,1653,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323096,5857,1,1,null,0,6,0
+1661111504050,637,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111504050,637,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111504689,2504,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323247,6482,1,1,null,0,1148,0
+1661111504689,2504,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323247,6482,1,1,null,0,1148,0
+1661111508341,2807,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322396,5907,1,1,null,0,3,338
+1661111508341,2402,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,733992,4201,1,1,null,0,3,233
+1661111510746,405,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588404,1706,1,1,null,0,0,105
+1661111511152,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111511153,1524,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347708,7485,1,1,null,0,2,0
+1661111511153,1524,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347708,7485,1,1,null,0,2,0
+1661111512679,646,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1667,1121,1,1,null,0,0,0
+1661111512679,646,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1667,1121,1,1,null,0,0,0
+1661111513326,1724,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323245,5857,1,1,null,0,2,0
+1661111513326,1724,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323245,5857,1,1,null,0,2,0
+1661111515052,644,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111515052,644,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111515696,2322,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323104,6482,1,1,null,0,1004,0
+1661111515697,2322,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323104,6482,1,1,null,0,1003,0
+1661111519022,2303,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322866,5907,1,1,null,0,1,0
+1661111519022,2014,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734462,4201,1,1,null,0,0,0
+1661111521036,289,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588404,1706,1,1,null,0,1,0
+1661111521327,0,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111521329,1449,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347857,7485,1,1,null,0,4,0
+1661111521329,1449,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347857,7485,1,1,null,0,3,0
+1661111522782,621,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1679,1121,1,1,null,0,0,0
+1661111522782,621,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1679,1121,1,1,null,0,0,0
+1661111523403,1736,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323401,5857,1,1,null,0,3,0
+1661111523403,1736,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323401,5857,1,1,null,0,3,0
+1661111525142,618,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111525142,618,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111525760,2357,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323073,6482,1,1,null,0,1422,0
+1661111525760,2357,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323073,6482,1,1,null,0,1422,0
+1661111529539,2254,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322513,5907,1,1,null,0,9,0
+1661111529540,1956,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734109,4201,1,1,null,0,4,0
+1661111531500,298,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588404,1706,1,1,null,0,4,0
+1661111531803,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111531804,1457,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347558,7485,1,1,null,0,6,0
+1661111531804,1457,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347558,7485,1,1,null,0,6,0
+1661111533268,640,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1762,1121,1,1,null,0,1,0
+1661111533268,640,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1762,1121,1,1,null,0,1,0
+1661111533910,1863,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323172,5857,1,1,null,0,3,0
+1661111533910,1863,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323172,5857,1,1,null,0,3,0
+1661111535776,637,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111535776,637,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111536413,2574,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323451,6482,1,1,null,0,1949,0
+1661111536413,2574,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323451,6482,1,1,null,0,1949,0
+1661111540938,2720,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322392,5907,1,1,null,0,5,0
+1661111540938,2451,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,733988,4201,1,1,null,0,2,0
+1661111543391,269,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588404,1706,1,1,null,0,3,0
+1661111543663,6,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111543669,1256,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347520,7485,1,1,null,0,4,0
+1661111543669,1256,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347520,7485,1,1,null,0,4,0
+1661111544929,631,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1649,1121,1,1,null,0,2,0
+1661111544929,631,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1649,1121,1,1,null,0,2,0
+1661111545562,1774,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323395,5857,1,1,null,0,4,0
+1661111545562,1774,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323395,5857,1,1,null,0,4,0
+1661111547340,636,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111547340,636,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111547977,2615,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323216,6482,1,1,null,0,1653,0
+1661111547977,2615,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323216,6482,1,1,null,0,1653,0
+1661111552245,2002,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322512,5907,1,1,null,0,5,0
+1661111552245,1747,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734108,4201,1,1,null,0,3,0
+1661111553995,255,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588404,1706,1,1,null,0,2,0
+1661111554252,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111554254,1420,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347887,7485,1,1,null,0,4,0
+1661111554254,1420,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347887,7485,1,1,null,0,4,0
+1661111555678,630,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1643,1121,1,1,null,0,1,0
+1661111555678,630,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1643,1121,1,1,null,0,1,0
+1661111556310,1863,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323182,5857,1,1,null,0,3,0
+1661111556310,1863,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323182,5857,1,1,null,0,3,0
+1661111558176,652,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111558176,652,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111558829,2254,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323281,6482,1,1,null,0,1552,0
+1661111558829,2254,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323281,6482,1,1,null,0,1552,0
+1661111562635,2242,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322399,5907,1,1,null,0,4,0
+1661111562635,1951,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,733995,4201,1,1,null,0,4,0
+1661111564590,291,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588404,1706,1,1,null,0,0,0
+1661111564883,0,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111564883,1408,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3348020,7485,1,1,null,0,7,0
+1661111564883,1408,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3348020,7485,1,1,null,0,7,0
+1661111566298,634,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1668,1121,1,1,null,0,1,0
+1661111566298,634,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1668,1121,1,1,null,0,1,0
+1661111566933,1674,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323281,5857,1,1,null,0,2,0
+1661111566933,1674,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323281,5857,1,1,null,0,2,0
+1661111568609,684,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111568609,684,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111569293,3078,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323032,6482,1,1,null,0,1086,321
+1661111569293,3078,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323032,6482,1,1,null,0,1085,321
+1661111573456,2218,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322414,5907,1,1,null,0,1,0
+1661111573456,1797,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734000,4201,1,1,null,0,0,0
+1661111575253,421,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588414,1706,1,1,null,0,1,0
+1661111575675,2,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111575677,1437,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347665,7485,1,1,null,0,1,0
+1661111575677,1437,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347665,7485,1,1,null,0,1,0
+1661111577115,636,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1655,1121,1,1,null,0,0,0
+1661111577115,636,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1655,1121,1,1,null,0,0,0
+1661111577751,1852,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323245,5857,1,1,null,0,3,0
+1661111577751,1852,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323245,5857,1,1,null,0,3,0
+1661111579607,661,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111579607,661,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111580270,2034,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323189,6482,1,1,null,0,1331,0
+1661111580270,2034,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323189,6482,1,1,null,0,1331,0
+1661111583635,2294,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322578,5907,1,1,null,0,4,0
+1661111583635,2001,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734164,4201,1,1,null,0,3,0
+1661111585638,293,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588414,1706,1,1,null,0,1,0
+1661111585932,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111585934,1301,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3348033,7485,1,1,null,0,5,0
+1661111585934,1301,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3348033,7485,1,1,null,0,5,0
+1661111587240,626,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1823,1121,1,1,null,0,1,0
+1661111587240,626,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1823,1121,1,1,null,0,1,0
+1661111587867,1887,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323674,5857,1,1,null,0,6,0
+1661111587867,1887,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323674,5857,1,1,null,0,6,0
+1661111589760,637,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111589760,637,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111590398,2532,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323033,6482,1,1,null,0,1159,0
+1661111590398,2532,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323033,6482,1,1,null,0,1159,0
+1661111594089,2370,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322537,5907,1,1,null,0,4,0
+1661111594089,2046,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734123,4201,1,1,null,0,3,0
+1661111596138,324,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588414,1706,1,1,null,0,0,0
+1661111596463,2,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111596465,1400,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347612,7485,1,1,null,0,6,0
+1661111596465,1400,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347612,7485,1,1,null,0,6,0
+1661111597871,620,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1693,1121,1,1,null,0,1,0
+1661111597871,620,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1693,1121,1,1,null,0,1,0
+1661111598492,1451,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323388,5857,1,1,null,0,5,0
+1661111598492,1451,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323388,5857,1,1,null,0,5,0
+1661111599948,631,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111599948,631,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,1,0
+1661111600580,2437,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323368,6482,1,1,null,0,1529,0
+1661111600580,2437,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323368,6482,1,1,null,0,1529,0
+1661111604547,2264,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322442,5907,1,1,null,0,2,0
+1661111604547,2005,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734028,4201,1,1,null,0,2,0
+1661111606554,259,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588414,1706,1,1,null,0,0,0
+1661111606814,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111606815,1754,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347740,7485,1,1,null,0,5,0
+1661111606815,1754,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347740,7485,1,1,null,0,5,0
+1661111608575,735,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1680,1121,1,1,null,0,0,0
+1661111608575,735,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1680,1121,1,1,null,0,0,0
+1661111609310,1587,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323073,5857,1,1,null,0,8,0
+1661111609310,1587,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323073,5857,1,1,null,0,8,0
+1661111610905,638,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111610905,638,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,0,0
+1661111611543,2183,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323127,6482,1,1,null,0,1235,0
+1661111611543,2183,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323127,6482,1,1,null,0,1235,0
+1661111614961,2292,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322889,5907,1,1,null,0,4,0
+1661111614961,1969,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734475,4201,1,1,null,0,4,0
+1661111616934,323,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588414,1706,1,1,null,0,0,0
+1661111617257,1,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661111617258,1633,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3347822,7485,1,1,null,0,6,0
+1661111617258,1633,/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-204,200,"Number of samples in transaction : 13, number of failing samples : 0",Thread Group 1-1,,true,,3347822,7485,1,1,null,0,6,0
+1661111618897,618,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,1636,1121,1,1,null,0,1,0
+1661111618897,618,/bycat-244,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1636,1121,1,1,null,0,1,0
+1661111619517,1929,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323287,5857,1,1,null,0,6,0
+1661111619517,1929,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323287,5857,1,1,null,0,6,0
+1661111621453,629,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111621453,629,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661111622084,2459,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3322945,6482,1,1,null,0,1315,0
+1661111622084,2459,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3322945,6482,1,1,null,0,1315,0
+1661111625857,1049,T06_Click_PlaceOrder,200,,Thread Group 1-1,,true,,5942,1888,1,1,null,0,0,0
+1661111625857,1049,/deletecart-307,200,,Thread Group 1-1,,true,,5942,1888,1,1,null,0,0,0
+1661789116584,3913,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,51682,0,1,1,null,0,63,0
+1661789116618,3232,/-205,200,OK,Thread Group 1-1,text,true,,46849,0,1,1,https://www.google.com/,2415,0,0
+1661789119879,681,/-205,200,OK,Thread Group 1-1,text,true,,4833,0,1,1,https://demoblaze.com/,582,0,0
+1661789120611,30,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661789120641,1072,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1684,1121,1,1,null,0,254,332
+1661789120892,695,/bycat-244,200,OK,Thread Group 1-1,text,true,,445,505,1,1,https://api.demoblaze.com/bycat,695,0,332
+1661789121589,377,/bycat-245,200,OK,Thread Group 1-1,text,true,,1239,616,1,1,https://api.demoblaze.com/bycat,377,0,0
+1661789121967,12811,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323684,5857,1,1,null,0,14,365
+1661789121967,12811,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323684,5857,1,1,null,0,14,365
+1661789134795,713,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661789134795,713,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,748,1238,1,1,null,0,2,0
+1661789135511,11348,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323673,6482,1,1,null,0,2003,0
+1661789135511,11348,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323673,6482,1,1,null,0,2002,0
+1661789148855,11516,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322711,5907,1,1,null,0,16,0
+1661789148855,4252,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734310,4201,1,1,null,0,11,0
+1661789153118,7264,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,5,0
+1661789179917,4245,S01_BlazeDemo_T01_Launch,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,51645,0,1,1,null,0,93,0
+1661789179978,3251,/-205,200,OK,Thread Group 1-1,text,true,,46812,0,1,1,https://www.google.com/,2542,0,0
+1661789183256,994,/-205,200,OK,Thread Group 1-1,text,true,,4833,0,1,1,https://demoblaze.com/,990,0,0
+1661789184268,16,BeanShell Sampler,200,OK,Thread Group 1-1,text,true,,0,0,1,1,null,0,0,0
+1661789184285,1003,S01_BlazeDemo_T02_ClickAboutUS,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,1770,1121,1,1,null,0,241,348
+1661789184524,652,/bycat-244,200,OK,Thread Group 1-1,text,true,,445,505,1,1,https://api.demoblaze.com/bycat,652,0,348
+1661789185178,351,/bycat-245,200,OK,Thread Group 1-1,text,true,,1325,616,1,1,https://api.demoblaze.com/bycat,350,0,0
+1661789185530,9964,T03_ClickProduct,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323122,5857,1,1,null,0,15,641
+1661789185530,9964,/prod.html-249,200,"Number of samples in transaction : 10, number of failing samples : 0",Thread Group 1-1,,true,,3323122,5857,1,1,null,0,15,641
+1661789195518,714,T04_ClickAddToCart,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,752,1238,1,1,null,0,2,0
+1661789195518,714,/addtocart-276,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,752,1238,1,1,null,0,2,0
+1661789196234,11964,T05_ClickCart_tab,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3323195,6482,1,1,null,0,2077,0
+1661789196234,11964,/cart.html-278,200,"Number of samples in transaction : 11, number of failing samples : 0",Thread Group 1-1,,true,,3323195,6482,1,1,null,0,2077,0
+1661789210276,10587,T06_Click_PlaceOrder,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,3322401,5907,1,1,null,0,10,0
+1661789210276,3564,/deletecart-307,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,734000,4201,1,1,null,0,7,0
+1661789213847,7023,/about_demo_hls_1M00000.ts-339,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,2588401,1706,1,1,null,0,3,0
