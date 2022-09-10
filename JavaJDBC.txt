@@ -27,4 +27,7 @@ ResultSetMetadata
 DatabaseMetaData.
 
 
+Even we can do the database connection using DataSource class
+
+
 ----------
